@@ -76,7 +76,13 @@ A complete Guide to Install Frappe/ERPNext version 14  in Ubuntu 22.04 LTS
        Reload privilege tables now? [Y/n] Y
        ... Success!
 
- 
+#Check mysql login 
+      mysql -u root -p
+
+Enter the mysql password, If login is successful then you will be able to see something like this:
+      MariaDB  [(nonw)]>
+      
+This indicates that you are inside the Database terminal and can use all the database commands from this terminal such as SHOW DATABASES; USE <database_name>, SHOW TABLES; etc,.
     
     
     
